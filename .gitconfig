@@ -11,6 +11,7 @@
 [alias]
     tree = log --graph --decorate --pretty=oneline --abbrev-commit --all
     branches = branch -avvv
+    firstcommit = commit -m 'Omnia principia parva sunt'
 [rerere]
     enabled = true
 [push]

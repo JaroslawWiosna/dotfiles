@@ -1,13 +1,13 @@
 [user]
-	name = Jarosław Wiosna
-	mail = jaroslaw.wiosna.github@gmail.com
-	email = jaroslaw.wiosna.github@gmail.com
+    name = Jarosław Wiosna
+    mail = jaroslaw.wiosna.github@gmail.com
+    email = jaroslaw.wiosna.github@gmail.com
 [core]
-	editor = vim
+    editor = vim
 [credential]
-	helper = cache
+    helper = cache
 [merge]
-	conflictStyle = diff3
+    conflictStyle = diff3
 [alias]
     tree = log --graph --decorate --pretty=oneline --abbrev-commit --all
     branches = branch -avvv
@@ -17,3 +17,5 @@
     enabled = true
 [push]
     defaulf = upstream
+[fetch]
+    prune = true

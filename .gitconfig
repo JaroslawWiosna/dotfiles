@@ -9,6 +9,10 @@
 [merge]
     conflictStyle = diff3
 [alias]
+# https://gist.github.com/digitaljhelms/3866785
+    aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /' | sort    # list all aliases
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
+    who = shortlog -s --
     tree = log --graph --decorate --pretty=oneline --abbrev-commit --all
     branches = branch -avvv
     firstcommit = commit -m 'Omnia principia parva sunt'

@@ -17,6 +17,8 @@
     branches = branch -avvv
     firstcommit = commit -m 'Omnia principia parva sunt'
     st = status -sbv
+    # https://hackernoon.com/lesser-known-git-commands-151a1918a60
+    please = push --force-with-lease
 [rerere]
     enabled = true
 [push]

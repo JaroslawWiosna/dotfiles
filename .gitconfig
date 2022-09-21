@@ -22,6 +22,6 @@
 [rerere]
     enabled = true
 [push]
-    defaulf = upstream
+    default = upstream
 [fetch]
     prune = true

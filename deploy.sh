@@ -23,3 +23,4 @@ symlink() {
 echo SCRIPT_DIR is $SCRIPT_DIR
 symlink .vimrc
 symlink .gitconfig
+symlink init.vim .config/nvim

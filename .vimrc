@@ -6,3 +6,5 @@ set expandtab
 set nu
 set relativenumber
 
+set colorcolumn=80
+
